@@ -10,7 +10,7 @@ type LandingPageScreenProp = StackNavigationProp<RootStackParamList, 'LandingPag
 const LandingPage: React.FC = () => {
   const navigation = useNavigation<LandingPageScreenProp>(); // Use the typed navigation
   const [promo, setPromo] = useState('Get 20% off on your first order!');
-  const [testimonial, setTestimonial] = useState('“Best pizza in town!”');
+  const [testimonial, setTestimonial] = useState('Best pizza in town!');
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
